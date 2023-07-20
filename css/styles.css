@@ -137,7 +137,7 @@ nav > ul > li:last-of-type:hover > a {
   border-left: 20px solid transparent;
 }
 .title {
-  margin-top: 90px;
+  margin-top: 80px;
   height: 300px;
   text-align: center;
   color: var(--White);
@@ -431,6 +431,19 @@ footer {
   }
 }
 @media only screen and (max-width: 700px) {
+  header{
+    height: 70vh;
+  }
+  .title{
+    margin-top: 20px;
+  }
+  .title h1{
+    margin: 0;
+  }
+  .title > a img {
+    margin-top: -20px;
+    height: 40%;
+  }
   .wrap {
     justify-content: space-between;
     padding: 0 30px;
