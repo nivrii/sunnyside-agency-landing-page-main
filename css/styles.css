@@ -137,7 +137,7 @@ nav > ul > li:last-of-type:hover > a {
   border-left: 20px solid transparent;
 }
 .title {
-  margin-top: 80px;
+  margin-top: 90px;
   height: 300px;
   text-align: center;
   color: var(--White);
@@ -149,7 +149,7 @@ nav > ul > li:last-of-type:hover > a {
 }
 .title > a img {
   margin-top: 50px;
-  height: 30%;
+  height: 40%;
 }
 .box-wrap {
   display: grid;
