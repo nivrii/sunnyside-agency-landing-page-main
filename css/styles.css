@@ -174,7 +174,6 @@ nav > ul > li:last-of-type:hover > a {
 .box1 > p,
 .box4 > p {
   font-family: "Barlow";
-  font-size: var(--boxP);
   color: var(--Very-dark-grayish-blue);
 }
 .color-wrap {
