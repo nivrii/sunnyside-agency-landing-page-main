@@ -551,3 +551,12 @@ footer {
     width: 85vw;
   }
 }
+@media (max-width:400px){
+  :root {
+    --Font-size: 18px;
+    --nameH4: 1.5rem;
+    --boxH2: 2.5rem;
+    --boxLH2: 1.7rem;
+    --boxP: 1rem;
+  }
+}
