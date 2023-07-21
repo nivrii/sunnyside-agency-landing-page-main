@@ -72,9 +72,6 @@ li {
 a {
   text-decoration: none;
 }
-p{
-  font-size: var(--Font-size);
-}
 nav > ul > li > a {
   color: var(--White);
   font-family: "Barlow";
@@ -174,6 +171,7 @@ nav > ul > li:last-of-type:hover > a {
 .box1 > p,
 .box4 > p {
   font-family: "Barlow";
+  font-size: var(--boxP);
   color: var(--Very-dark-grayish-blue);
 }
 .color-wrap {
@@ -417,6 +415,7 @@ footer {
     width: 40%;
   }
   .title {
+    font-size: var(--nameH4);
     letter-spacing: 5px;
   }
   nav {
@@ -484,7 +483,9 @@ footer {
     font-weight: var(--w7);
     font-family: "Fraunces";
   }
-
+  .title h1{
+    font-size: 1.5rem;
+  }
   .title > a img {
     margin-top: 80px;
   }
@@ -500,7 +501,7 @@ footer {
       "f";
   }
   .box {
-    height: 30vh;
+    height: 50vh;
   }
   .box1 {
     grid-area: b;
@@ -512,11 +513,16 @@ footer {
   .box4 {
     padding: 40px;
   }
+  .box5 > p,
+  .box6 > p {
+    font-size: var(--boxP);
+  }
 
   .testimonials {
     height: max-content;
   }
   .testimonials > h2 {
+    font-size: 1rem;
     letter-spacing: 5px;
   }
   .testimonials-wrap {
